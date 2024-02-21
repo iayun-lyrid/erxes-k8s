@@ -6,4 +6,4 @@ resources:
 configMapGenerator:
 - name: erxes-router-files
   files:
-  - erxes-router.nginx.conf.template
+  - erxes-router.nginx.conf

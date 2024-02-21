@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: erxes-router-env
 data:
-  SERVER_NAME: erxes.example.com
+  SERVER_NAME: erxes.imad.lyr.id

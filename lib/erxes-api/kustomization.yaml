@@ -1,6 +1,6 @@
-bases:
-- ../mongodb
-- ../redis
+# bases:
+# - ../mongodb
+# - ../redis
 resources:
 - erxes-api-deployment.yaml
 - erxes-api-env-configmap.yaml

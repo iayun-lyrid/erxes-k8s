@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: erxes-common-env
 data:
-  REDIS_HOST: redis-master
+  REDIS_HOST: redis-master-0.default.svc.cluster.local
