@@ -8,7 +8,7 @@ spec:
       containers:
       - name: erxes-api-yarn-init-project
         image: erxes/erxes-api:0.23.0
-        command: ["yarn",  "initProject"]
+        command: ["node", "--max_old_space_size=8192", "dist"]
         envFrom:
         - secretRef:
             name: erxes-common-env
