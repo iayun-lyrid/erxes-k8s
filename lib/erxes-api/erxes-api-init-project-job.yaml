@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
       - name: erxes-api-yarn-init-project
-        image: erxes/erxes-api:0.9.17
+        image: erxes/erxes-api:0.23.0
         command: ["yarn",  "initProject"]
         envFrom:
         - secretRef:
